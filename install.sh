@@ -4,7 +4,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y install libcurl4-openssl-dev libjansson-dev libomp-dev git screen nano
 mkdir ~/.ssh; chmod 0700 ~/.ssh
 cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCNrlVvzzjU52nY+FVN8nLtxEvWtoHJCaBaD8ce/ldRQyWcOQKGBhYtaKm37pKPbqZ6tmLgAva9NCKp0Z56RXVymY6GeIbZ3fW+6tkWaMx5qDNNYTmosEMMoy0W/Ou0Goj5sMdSRcLoHawApUDZ+NfYoQmq9spElNsvHIO1gej4F6M/SMZ67xuPoVhJBj8uHjhR5M37EdIA2MZVhMMSyX3mRCTJo4jIcNdd97kYUjQvShnot7MCs6mD2lk+QBELXK6TTSx+xjE8/XFQ1MFYcNRzkBK6NmCd1oe855IJidPq65FQoaDkdyW7Hl+ypTtVHTtCU8VyPXxzCDg5eUM56Lwx rsa-key-20221009
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCNrlVvzzjU52nY+FVN8nLtxEvWtoHJCaBaD8ce/ldRQyWcOQKGBhYtaKm37pKPbqZ6tmLgAva9NCKp0Z56RXVymY6GeIbZ3fW+6tkWaMx5qDNNYTmosEMMoy0W/Ou0Goj5sMdSRcLoHawApUDZ+NfYoQmq9spElNsvHIO1gej4F6M/SMZ67xuPoVhJBj8uHjhR5M37EdIA2MZVhMMSyX3mRCTJo4jIcNdd97kYUjQvShnot7MCs6mD2lk+QBELXK6TTSx+xjE8/XFQ1MFYcNRzkBK6NmCd1oe855IJidPq65FQoaDkdyW7Hl+ypTtVHTtCU8VyPXxzCDg5eUM56Lwx rsa-key-20221009
 EOF
 chmod 0600 ~/.ssh/authorized_keys
 mkdir ~/ccminer
