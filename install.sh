@@ -4,13 +4,13 @@ sudo apt-get -y upgrade
 sudo apt-get -y install libcurl4-openssl-dev libjansson-dev libomp-dev git screen nano
 mkdir ~/.ssh; chmod 0700 ~/.ssh
 cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBy6kORm+ECh2Vp1j3j+3F1Yg+EXNWY07HbP7dLZd/rqtdvPz8uxqWdgKBtyeM7R9AC1MW87zuCmss8GiSp2ZBIcpnr8kdMvYuI/qvEzwfY8pjvi2k3b/EwSP2R6/NqgbHctfVv1c7wL0M7myP9Zj7ZQPx+QV9DscogEEfc968RcV9jc+AgphUXC4blBf3MykzqjCP/SmaNhESr2F/mSxYiD8Eg7tTQ64phQ1oeOMzIzjWkW+P+vLGz+zk32RwmzX5VJBLZt7QR01HkLhTVTjSjve/6vNWJHwI3yxMI5Q3TGiuEVINMJiP0sp6cr8xRe7Ix24a1ZAc3fdu0z658JXKN rsa-key-20190820
+ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCNrlVvzzjU52nY+FVN8nLtxEvWtoHJCaBaD8ce/ldRQyWcOQKGBhYtaKm37pKPbqZ6tmLgAva9NCKp0Z56RXVymY6GeIbZ3fW+6tkWaMx5qDNNYTmosEMMoy0W/Ou0Goj5sMdSRcLoHawApUDZ+NfYoQmq9spElNsvHIO1gej4F6M/SMZ67xuPoVhJBj8uHjhR5M37EdIA2MZVhMMSyX3mRCTJo4jIcNdd97kYUjQvShnot7MCs6mD2lk+QBELXK6TTSx+xjE8/XFQ1MFYcNRzkBK6NmCd1oe855IJidPq65FQoaDkdyW7Hl+ypTtVHTtCU8VyPXxzCDg5eUM56Lwx rsa-key-20221009
 EOF
 chmod 0600 ~/.ssh/authorized_keys
 mkdir ~/ccminer
 cd ~/ccminer
 wget https://github.com/Oink70/Android-Mining/releases/download/v0.0.0-1/ccminer
-wget https://raw.githubusercontent.com/Oink70/Android-Mining/main/config.json
+wget https://raw.githubusercontent.com/darkaos666/Android-Mining/main/config.json
 chmod +x ccminer
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
