@@ -22,7 +22,8 @@ screen -dmS CCminer
 screen -S CCminer -X stuff "./ccminer -c config.json\n"
 EOF
 chmod +x start.sh
-
+wget http://ports.ubuntu.com/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_arm64.deb
+sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\"\n"
 
